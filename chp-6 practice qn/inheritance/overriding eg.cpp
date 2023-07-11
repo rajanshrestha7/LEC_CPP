@@ -1,5 +1,3 @@
-// C++ program to demonstrate function overriding
-
 #include <iostream>
 using namespace std;
 

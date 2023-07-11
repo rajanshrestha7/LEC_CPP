@@ -1,5 +1,3 @@
-// C++ program to demonstrate function overriding
-
 #include <iostream>
 using namespace std;
 
@@ -19,6 +17,10 @@ class Derived : public Base {
 
 int main() {
     Derived derived1;
-    derived1.print();
+
+    Base* ptr = &derived1;
+
+    ptr->print();
+
     return 0;
 }
