@@ -17,7 +17,7 @@ cout<<"no parameter constructor from base_one class";
 base_one (int x)
 {
 cout<<"\nparameterized constructor from base_one_class"<<endl;
-}
+}};
 class base_two
 {
 public: 
